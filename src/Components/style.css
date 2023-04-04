@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+div .card {
+    background-color: rgba(0, 0, 0, 0.904);
+    padding:10px;
+    border-radius: 10px;
+    width: 400px
+}
+
+.cardImage {
+    width: 100%;
+    height: 15vw;
+    
+}
+
+.homeTitle {
+    margin: 10px;
+}
+
+.cardid,
+.cardtitle,
+.carddescription,
+.readMore {
+    margin: 10px;
+}
+
+.cardsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    color: white;
+    justify-content:space-evenly;
+    margin:20px;
+}
